@@ -1,0 +1,43 @@
+import React, { Component } from 'react';
+import {
+    TouchableOpacity,
+    Text,
+    View
+} from 'react-native';
+import Icon from 'react-native-vector-icons/FontAwesome5';
+import * as Animatable from 'react-native-animatable';
+import style from '../../assets/styles/tabbar.style';
+import { Actions } from 'react-native-router-flux';
+
+export default class Tabbar extends Component {
+    constructor(props) {
+        super(props);
+        this.state = {
+        }
+    }
+    render() {
+        const { index } = this.props.navigation.state;
+        return (
+            <Animatable.View animation="slideInUp" style={style.footer} >
+                <View style={style.footerMenu} >
+                    <TouchableOpacity onPress={() => Actions.listenBar()} style={style.bottomButtons}>
+                        <Icon name="headphones" size={25} color={index === 0 ? "#DAA520" : "#fff" } />
+                        <Text style={style.footerText}>Nge</Text>
+                    </TouchableOpacity>
+                    <TouchableOpacity onPress={() => Actions.speakBar()} style={style.bottomButtons}>
+                        <Icon name="book-reader" size={25} color={index === 1 ? "#DAA520" : "#fff" } />
+                        <Text style={style.footerText}>Nói</Text>
+                    </TouchableOpacity>
+                    <TouchableOpacity onPress={() => Actions.grammarBar()} style={style.bottomButtons}>
+                        <Icon name="book" size={25} color={index === 2 ? "#DAA520" : "#fff" }/>
+                        <Text style={style.footerText}>Ngữ Pháp</Text>
+                    </TouchableOpacity>
+                    <TouchableOpacity onPress={() => Actions.vocabularyBar()} style={style.bottomButtons}>
+                        <Icon name="pen" size={25} color={index === 3 ? "#DAA520" : "#fff" }/>
+                        <Text style={style.footerText}>Từ Vựng</Text>
+                    </TouchableOpacity>
+                </View>
+            </Animatable.View>
+        )
+    }
+}
