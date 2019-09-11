@@ -9,16 +9,19 @@ const vocabularyStyle = StyleSheet.create({
         alignContent: "center",
         flexDirection: 'column',
         marginBottom: 65,
-        padding:5,
+        padding:10,
         backgroundColor:'#DCDCDC'
+    },
+    containView:{
+        flex: 1,
+        height: heightDevice / 5,
+        borderRadius:10,
+        margin:5
     },
     containText: {
         flex: 1,
-        height: heightDevice / 5,
         justifyContent: "center",
         alignItems: "center",
-        borderRadius:10,
-        margin:5
     }
 });
 

@@ -27,19 +27,28 @@ export default class ListVideo extends Component {
         this.fetchPlaylistData();
     }
     fetchPlaylistData = async () => {
-        const response = await fetch(`https://www.googleapis.com/youtube/v3/playlistItems?playlistId=${this.props.playListId}&maxResults=${MAX_RESULT}&part=snippet%2CcontentDetails&key=${API_KEY}`);
-        if (response) {
-            const json = await response.json();
-            this.setState({ videos: json['items'] });
-            console.log(this.state.videos)
+        let nextToken = "";
+        let arr = [];
+        let json;
+        while (nextToken != null) {
+            const response = await fetch(`https://www.googleapis.com/youtube/v3/playlistItems?playlistId=${this.props.playListId}&maxResults=${MAX_RESULT}&part=snippet%2CcontentDetails&key=${API_KEY}&pageToken=${nextToken}`);
+            if (response) {
+                json = await response.json();
+            }
+            for (let i = 0; i < json.items.length; i++) {
+                let item = json.items[i];
+                arr.push(item)
+            }
+            nextToken = json.nextPageToken;
         }
+        this.setState({ videos: poiuthis.props.title === 'Beginners' ? arr.reverse() : arr });
     }
 
     render() {
         return (
             <View style={styles.container}>
                 <HeaderNavigation
-                    content={<Text numberOfLines={1} style={layoutStyle.appTitle}>{this.props.title}</Text>}
+                    content={<Text numberOfLines={1} style={layoutStyle.textBoldLarge}>{this.props.title}</Text>}
                     actionButtonLeft={() => Actions.pop()}
                     actionButtonRight={() => Actions.drawerOpen()}
                     actionButtonLeft={() => Actions.pop()}

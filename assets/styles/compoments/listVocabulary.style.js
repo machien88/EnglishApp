@@ -9,7 +9,8 @@ const vocabularyStyle = StyleSheet.create({
         alignContent: "center",
         flexDirection: 'column',
         marginBottom: 65,
-        backgroundColor:'#DCDCDC'
+        backgroundColor:'#DCDCDC',
+        padding:10,
     },
     containText: {
         flex: 1,

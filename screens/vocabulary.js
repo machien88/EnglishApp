@@ -33,8 +33,8 @@ export default class Vocabulary extends Component {
                     extraData={this.state}
                     keyExtractor={(item, index) => index.toString()}
                     renderItem={({ item, index }) =>
-                        <LinearGradient colors={['#EEAD0E', '#C0FF3E']} start={{ x: 0, y: 0 }} end={{ x: 1, y: 0 }} style={style.containText} >
-                            <TouchableOpacity onPress={() => Actions.listVocabulary({ data: item.data, title: item.title })}>
+                        <LinearGradient colors={['#54FF9F', '#43CD80']} start={{ x: 0, y: 0 }} end={{ x: 1, y: 0 }} style={style.containView} >
+                            <TouchableOpacity style={style.containText} onPress={() => Actions.listVocabulary({ data: item.data, title: item.title })}>
                                 <Text style={layoutStyle.textBoldLarge}>{item.title}</Text>
                             </TouchableOpacity>
                         </LinearGradient>

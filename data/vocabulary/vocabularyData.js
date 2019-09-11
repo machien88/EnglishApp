@@ -1,7 +1,7 @@
 const data = {
     "topics": [
         {
-            "title": "dungcuhoctap",
+            "title": "Dung Cu Hoc Tap",
             "data": [
                 {
                     "word": "Pen",
@@ -66,7 +66,7 @@ const data = {
             ]
         },
         {
-            "title": "congviec",
+            "title": "Cong Viec",
             "data": [
                 {
                     "word": "Farmer",
