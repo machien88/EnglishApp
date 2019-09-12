@@ -9,6 +9,7 @@ import Vocabulary from '../screens/vocabulary';
 import Video from '../components/video/playVideo';
 import ListVideo from '../components/video/listVideo';
 import ListVocabulary from '../components/vocabulary/listVocabulary';
+import ListGrammars from '../components/grammar/listGrammars'
 /**
  * route config 
  */
@@ -79,7 +80,7 @@ export default class Routes extends Component {
                     <Scene key="tabbar" tabs tabBarComponent={Tabbar} type="reset" hideNavBar>
                         <Scene key="listenBar" hideNavBar>
                             <Scene key="listen" component={Listen} title="listen" />
-                            <Scene key="video" component={Video} title="video" hideTabBar/>
+                            <Scene key="video" component={Video} title="video" />
                             <Scene key="listVideo" component={ListVideo} title="listVideo" />
                         </Scene>
                         <Scene key="speakBar" hideNavBar>
@@ -87,6 +88,7 @@ export default class Routes extends Component {
                         </Scene>
                         <Scene key="grammarBar" hideNavBar>
                             <Scene key="grammar" component={Grammar} title="grammar" hideNavBar />
+                            <Scene key="listGrammars" component={ListGrammars} title="listGrammars" hideNavBar />
                         </Scene>
                         <Scene key="vocabularyBar" hideNavBar>
                             <Scene key="vocabulary" component={Vocabulary} title="vocabulary" hideNavBar />

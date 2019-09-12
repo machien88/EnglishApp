@@ -32,6 +32,10 @@ target 'EnglishApp' do
 
   pod 'BVLinearGradient', :path => '../node_modules/react-native-linear-gradient'
 
+  pod 'RNFS', :path => '../node_modules/react-native-fs'
+
+  pod 'RNFileViewer', :path => '../node_modules/react-native-file-viewer'
+
   target 'EnglishAppTests' do
     inherit! :search_paths
     # Pods for testing
