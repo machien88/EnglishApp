@@ -33,9 +33,9 @@ export default class ListVocabulary extends Component {
                         renderItem={({ item, index }) =>
                             <LinearGradient colors={['#97FFFF', '#79CDCD']} start={{ x: 0, y: 0 }} end={{ x: 1, y: 0 }} style={style.containText} >
                                 <TouchableOpacity>
-                                    <Text style={layoutStyle.textBoldLarge}>{item.word}</Text>
-                                    <Text style={layoutStyle.textBoldLarge}>{item.spelling}</Text>
-                                    <Text style={layoutStyle.textBoldLarge}>{item.translate}</Text>
+                                    <Text style={layoutStyle.textBoldLarge}>{item.word} - {item.spelling}: {item.translate}</Text>
+                                    {/* <Text style={layoutStyle.textBoldLarge}>{item.spelling}</Text>
+                                    <Text style={layoutStyle.textBoldLarge}>{item.translate}</Text> */}
                                 </TouchableOpacity>
                             </LinearGradient>
                         }
