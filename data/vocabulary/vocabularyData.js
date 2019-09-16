@@ -1,7 +1,8 @@
 const data = {
     "topics": [
         {
-            "title": "Dung Cu Hoc Tap",
+            "title": "Learning Tools",
+            "description": "Dụng Cụ Học Tập",
             "data": [
                 {
                     "word": "Pen",
@@ -66,7 +67,8 @@ const data = {
             ]
         },
         {
-            "title": "Cong Viec",
+            "title": "Occupations",
+            "description": "Công Việc",
             "data": [
                 {
                     "word": "Farmer",
@@ -227,7 +229,8 @@ const data = {
             ]
         },
         {
-            "title": "Hanh Dong",
+            "title": "Action Verbs",
+            "description": "Các động từ về hành động",
             "data": [
                 {
                     "word": "Stand",
@@ -412,7 +415,8 @@ const data = {
             ]
         },
         {
-            "title": "Thoi Tiet",
+            "title": "Weather",
+            "description": "Thời Tiết",
             "data": [
                 {
                     "word": "Hot",
@@ -471,7 +475,8 @@ const data = {
             ]
         },
         {
-            "title": 'giadinh',
+            "title": 'Family',
+            "description": "Già Đình",
             "data": [
                 {
                     "word": "Mother",
@@ -542,7 +547,8 @@ const data = {
             ]
         },
         {
-            "title": 'tinhcach',
+            "title": 'Adjectives to describe human characters',
+            "description": "Tính từ để miêu tả tính cách con người",
             "data": [
                 {
                     "word": "Angry",
@@ -643,7 +649,8 @@ const data = {
             ]
         },
         {
-            "title": "Thiet Bi Trong Nha",
+            "title": "Household devices",
+            "description": "Thiết Bị Trong Nhà",
             "data": [
                 {
                     "word": "Telephone",

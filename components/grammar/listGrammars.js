@@ -30,14 +30,15 @@ export default class ListGrammars extends Component {
     // }
     render() {
         return (
-            <View style={style.container}>
+            <View style={{flex:1}}>
                 <HeaderNavigation
-                    content={<Text numberOfLines={1} style={layoutStyle.appTitle}>{this.props.title}</Text>}
+                    content={<Text numberOfLines={1} style={layoutStyle.textBoldLarge}>{this.props.title}</Text>}
                     actionButtonLeft={() => Actions.pop()}
                     actionButtonRight={() => Actions.drawerOpen()}
                     actionButtonLeft={() => Actions.pop()}
                     iconRight={null}
                 />
+                <View style={style.container}>
                 <FlatList
                     data = {this.props.data}
                     // extraData = {this.state}
@@ -48,6 +49,7 @@ export default class ListGrammars extends Component {
                             </View>
                     }
                 />
+                </View>
             </View>
         )
     }
