@@ -62,7 +62,7 @@ const data = {
             +   "✓  Last week/ month/ year: tuần/ tháng/ năm trước\n"
             +   "✓  Time + ago (2 days ago/ 5 years ago): cách đây/ trước (2 ngày trước/ 5 năm trước đây)\n"
             +   "- E.g: He didn’t go fishing yesterday. (Ngày hôm qua anh ấy đã không đi câu cá.)\n"
-            +   "     Did you go to the library last week? (Tuần trước bạn có đến thư viện không?)\n"
+            +   "  Did you go to the library last week? (Tuần trước bạn có đến thư viện không?)\n"
                   }]
             }
 

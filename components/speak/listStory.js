@@ -10,15 +10,15 @@ import style from '../../assets/styles/compoments/listVocabulary.style';
 import LinearGradient from 'react-native-linear-gradient';
 import HeaderNavigation from '../../components/headerNavigation';
 import { Actions } from 'react-native-router-flux';
-import FileViewer from 'react-native-file-viewer';
-export default class ListGrammars extends Component {
+
+export default class ListStory extends Component {
     constructor(props) {
         super(props);
     }
     render() {
-        return (
+        return(
             <View style={{flex:1}}>
-                <HeaderNavigation
+                 <HeaderNavigation
                     content={<Text numberOfLines={1} style={layoutStyle.textBoldLarge}>{this.props.title}</Text>}
                     actionButtonLeft={() => Actions.pop()}
                     actionButtonRight={() => Actions.drawerOpen()}
@@ -40,4 +40,4 @@ export default class ListGrammars extends Component {
             </View>
         )
     }
-}
+} 
