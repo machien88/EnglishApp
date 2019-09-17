@@ -1,40 +1,18 @@
-import React, { Component } from 'react';
+import React, {Component} from 'react';
 import {
     View,
     Text,
     TouchableOpacity,
     FlatList,
-    Button,
-    StyleSheet
 } from 'react-native';
 import layoutStyle from '../../assets/styles/layout.style';
 import style from '../../assets/styles/compoments/listVocabulary.style';
 import LinearGradient from 'react-native-linear-gradient';
 import HeaderNavigation from '../../components/headerNavigation';
 import { Actions } from 'react-native-router-flux';
-import dataStoryTrans from '../../data/speak/storyData'
-
-
-export default class ListStory extends Component {
-    constructor(props) {
-        super(props);
-        this.state = {
-            dataTrans: []
-        }
-    }
-    componentDidMount() {
-        this.getStoryTrans()
-    }
-
-    getStoryTrans = () => {
-        this.setState({
-            dataTrans: dataStoryTrans.getStory()
-        });
-    }
-
+export default class listStoryTrans extends Component {
     render() {
-        const { dataTrans } = this.state;
-        return(
+        return (
             <View style={{flex:1}}>
                  <HeaderNavigation
                     content={<Text numberOfLines={1} style={layoutStyle.textBoldLarge}>{this.props.title}</Text>}
@@ -45,20 +23,17 @@ export default class ListStory extends Component {
                 />
                 <View style={style.container}>
                   <FlatList
-                    data = {this.props.data}
+                    data = {this.props.dataTranslate}
                     extraData = {this.state}
                     keyExtractor = {( item,index ) => index.toString()}
                     renderItem={({ item, index }) =>
                             <View>
-                                <Text style={layoutStyle.textRegularMedium}>{item.content}</Text>
+                                <Text style={layoutStyle.textRegularMedium}>{item}</Text>
                             </View>
                     }
                   />
-                  <TouchableOpacity  style={layoutStyle.button} onPress={() => Actions.listStoryTrans({ dataTranslate: dataTrans.data, title: "Translate"})} >
-                    <Text style={layoutStyle.button}>Translate</Text>
-                  </TouchableOpacity>
                 </View>
             </View>
         )
     }
-} 
+}

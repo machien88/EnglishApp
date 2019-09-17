@@ -43,6 +43,15 @@ const layoutStyle = StyleSheet.create({
     },
     text_center:{
         textAlign:'center'
+    },
+    button: {
+        alignItems: 'stretch',
+        textAlign:'center',
+        backgroundColor: 'steelblue',
+        padding: 10,
+        color:'#333',
+        fontSize: widthDevice*0.05,
+        fontFamily:'Quicksand-Bold'
     }
 });
 
