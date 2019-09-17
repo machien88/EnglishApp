@@ -21,7 +21,7 @@ export default class ListVideo extends Component {
         }
     }
     componentWillMount() {
-        this.fetchPlaylistData();
+        // this.fetchPlaylistData();
     }
     componentDidMount() {
         this.fetchPlaylistData();
@@ -41,7 +41,7 @@ export default class ListVideo extends Component {
             }
             nextToken = json.nextPageToken;
         }
-        this.setState({ videos: poiuthis.props.title === 'Beginners' ? arr.reverse() : arr });
+        this.setState({ videos: this.props.title === 'Beginners' ? arr.reverse() : arr });
     }
 
     render() {
@@ -58,8 +58,8 @@ export default class ListVideo extends Component {
                     <View style={styles.body}>
                         {this.state.videos && this.state.videos.map((item, i) =>
                             <TouchableHighlight
-                                key={i}
-                                // key={item.id.videoId}
+                                // key={i}
+                                key={item.id}
                                 onPress={() => Actions.video({ youtubeId: item.contentDetails.videoId })}>
                                 <View style={styles.vids}>
                                     <Image
