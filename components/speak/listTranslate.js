@@ -10,16 +10,14 @@ import style from '../../assets/styles/compoments/listVocabulary.style';
 import LinearGradient from 'react-native-linear-gradient';
 import HeaderNavigation from '../../components/headerNavigation';
 import { Actions } from 'react-native-router-flux';
-import Data from '../../data/speak/storyData'
-
-export default class ListStory extends Component {
+export default class ListTranslate extends Component {
     constructor(props) {
         super(props);
     }
     render() {
-        return(
+        return (
             <View style={{flex:1}}>
-                 <HeaderNavigation
+                <HeaderNavigation
                     content={<Text numberOfLines={1} style={layoutStyle.textBoldLarge}>{this.props.title}</Text>}
                     actionButtonLeft={() => Actions.pop()}
                     actionButtonRight={() => Actions.drawerOpen()}
@@ -29,20 +27,16 @@ export default class ListStory extends Component {
                 <View style={style.container}>
                 <FlatList
                     data = {this.props.data}
-                    // extraData = {this.state}
-                    // keyExtractor = {( item,index ) => index.toString()}
+                    extraData = {this.state}
+                    keyExtractor = {( item,index ) => index.toString()}
                     renderItem={({ item, index }) =>
-                            <View>
-                                <Text style={layoutStyle.textRegularMedium}>{item.content}</Text>
-                                <TouchableOpacity style={layoutStyle.button_translate} onPress = {() => Actions.listTranslate({data: item.translate, title: "Translate"})} >
-                    <Text style={layoutStyle.textBoldLarge}>Translate</Text>
-                </TouchableOpacity>
+                            <View >
+                                <Text style={layoutStyle.textRegularMedium}>{item}</Text>
                             </View>
                     }
                 />
-                
                 </View>
             </View>
         )
     }
-} 
+}

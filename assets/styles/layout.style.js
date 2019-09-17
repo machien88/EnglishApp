@@ -43,6 +43,12 @@ const layoutStyle = StyleSheet.create({
     },
     text_center:{
         textAlign:'center'
+    },
+    button_translate: {
+        backgroundColor: '#009966',
+        padding: 10,
+        justifyContent: "center",
+        alignItems: "center",
     }
 });
 
