@@ -5,7 +5,7 @@ const data = {
             "data": [
                 {
                     "content": "Content",
-                    "translate": "Translate"
+                    "translate": "Transe"
                 }
             ]
         },
