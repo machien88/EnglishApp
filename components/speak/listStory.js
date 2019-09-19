@@ -17,6 +17,8 @@ export default class ListStory extends Component {
         super(props);
     }
     render() {
+        const { data } =  this.props
+        console.log(data)
         return(
             <View style={{flex:1}}>
                  <HeaderNavigation
@@ -34,13 +36,14 @@ export default class ListStory extends Component {
                     renderItem={({ item, index }) =>
                             <View>
                                 <Text style={layoutStyle.textRegularMedium}>{item.content}</Text>
-                                <TouchableOpacity style={layoutStyle.button_translate} onPress = {() => Actions.listTranslate({data: item.translate, title: "Translate"})} >
-                    <Text style={layoutStyle.textBoldLarge}>Translate</Text>
-                </TouchableOpacity>
                             </View>
                     }
                 />
-                
+                <View>
+                <TouchableOpacity style={layoutStyle.button_translate} onPress = {() => Actions.listTranslate({data: data, title: "Translate"})} >
+                    <Text style={layoutStyle.textBoldLarge}>Translate</Text>
+                </TouchableOpacity>
+                </View>
                 </View>
             </View>
         )
