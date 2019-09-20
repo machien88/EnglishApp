@@ -31,7 +31,7 @@ export default class ListTranslate extends Component {
                     keyExtractor = {( item,index ) => index.toString()}
                     renderItem={({ item, index }) =>
                             <View >
-                                <Text style={layoutStyle.textRegularMedium}>{item}</Text>
+                                <Text style={layoutStyle.textRegularMedium}>{item.translate}</Text>
                             </View>
                     }
                 />
