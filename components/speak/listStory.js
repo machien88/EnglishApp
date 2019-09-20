@@ -41,7 +41,7 @@ export default class ListStory extends Component {
                     }
                 />
                 <View>
-                <TouchableOpacity style={layoutStyle.button_translate} onPress = {() => Actions.listTranslate({data: data, title: data.title})} >
+                <TouchableOpacity style={layoutStyle.button_translate} onPress = {() => Actions.listTranslate({data: data, title: data.title_translate})} >
                     <Text style={layoutStyle.textBoldLarge}>Translate</Text>
                 </TouchableOpacity>
                 </View>
