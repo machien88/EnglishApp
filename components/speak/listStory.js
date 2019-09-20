@@ -17,23 +17,9 @@ import Data from '../../data/speak/storyData'
 export default class ListStory extends Component {
     constructor(props) {
         super(props);
-        this.state = {
-            dataTrans: []
-        }
     }
-    componentDidMount() {
-        this.getStoryTrans()
-    }
-
-    getStoryTrans = () => {
-        this.setState({
-            dataTrans: dataStoryTrans.getStory()
-        });
-    }
-
     render() {
         const { data } =  this.props
-        console.log(data)
         return(
             <View style={{flex:1}}>
                  <HeaderNavigation
@@ -55,7 +41,7 @@ export default class ListStory extends Component {
                     }
                 />
                 <View>
-                <TouchableOpacity style={layoutStyle.button_translate} onPress = {() => Actions.listTranslate({data: data, title: "Translate"})} >
+                <TouchableOpacity style={layoutStyle.button_translate} onPress = {() => Actions.listTranslate({data: data, title: data.title})} >
                     <Text style={layoutStyle.textBoldLarge}>Translate</Text>
                 </TouchableOpacity>
                 </View>
