@@ -11,7 +11,7 @@ import ListVideo from '../components/video/listVideo';
 import ListVocabulary from '../components/vocabulary/listVocabulary';
 import ListGrammars from '../components/grammar/listGrammars'
 import ListStorys from '../components/speak/listStory'
-import listStoryTrans from '../components/speak/listStoryTrans'
+import ListTranslate from '../components/speak/listTranslate'
 /**
  * route config 
  */
@@ -88,7 +88,7 @@ export default class Routes extends Component {
                         <Scene key="speakBar" hideNavBar>
                             <Scene key="speak" component={Speak} title="speak" hideNavBar />
                             <Scene key="listStorys" component={ListStorys} title="listStorys" hideNavBar />
-                            <Scene key="listStoryTrans" component={listStoryTrans} title="listStoryTrans" hideNavBar />
+                            <Scene key="listTranslate" component={ListTranslate} title="listTranslate" hideNavBar/>
                         </Scene>
                         <Scene key="grammarBar" hideNavBar>
                             <Scene key="grammar" component={Grammar} title="grammar" hideNavBar />
