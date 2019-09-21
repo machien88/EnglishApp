@@ -4,6 +4,8 @@ import {
     Text,
     TouchableOpacity,
     FlatList,
+    Button,
+    StyleSheet
 } from 'react-native';
 import layoutStyle from '../../assets/styles/layout.style';
 import style from '../../assets/styles/compoments/listVocabulary.style';
@@ -18,7 +20,6 @@ export default class ListStory extends Component {
     }
     render() {
         const { data } =  this.props
-        console.log(data)
         return(
             <View style={{flex:1}}>
                  <HeaderNavigation
@@ -29,10 +30,10 @@ export default class ListStory extends Component {
                     iconRight={null}
                 />
                 <View style={style.container}>
-                <FlatList
+                  <FlatList
                     data = {this.props.data}
-                    // extraData = {this.state}
-                    // keyExtractor = {( item,index ) => index.toString()}
+                    extraData = {this.state}
+                    keyExtractor = {( item,index ) => index.toString()}
                     renderItem={({ item, index }) =>
                             <View>
                                 <Text style={layoutStyle.textRegularMedium}>{item.content}</Text>
@@ -40,7 +41,7 @@ export default class ListStory extends Component {
                     }
                 />
                 <View>
-                <TouchableOpacity style={layoutStyle.button_translate} onPress = {() => Actions.listTranslate({data: data, title: "Translate"})} >
+                <TouchableOpacity style={layoutStyle.button_translate} onPress = {() => Actions.listTranslate({data: data, title: data.title_translate})} >
                     <Text style={layoutStyle.textBoldLarge}>Translate</Text>
                 </TouchableOpacity>
                 </View>
