@@ -16,7 +16,7 @@ export default class PlayVideo extends Component {
         return (
             <View style={styles.container}>
                 <HeaderNavigation
-                    content={<Text numberOfLines={1} style={layoutStyle.appTitle}>Listen</Text>}
+                    content={<Text numberOfLines={1}  style={layoutStyle.textBoldLarge}>Listen</Text>}
                     actionButtonLeft={() => Actions.pop()}
                     actionButtonRight={() => Actions.drawerOpen()}
                     actionButtonLeft={() => Actions.pop()}
@@ -49,7 +49,7 @@ const styles = StyleSheet.create({
         flex: 1,
         justifyContent: 'center',
         alignItems: 'center',
-        backgroundColor: '#fff'
+        backgroundColor: '#000'
     }
 })
 

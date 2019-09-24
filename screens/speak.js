@@ -26,14 +26,14 @@ export default class Speak extends Component {
     render() {
         const { listStorys } = this.state;
         return (
-            <View>
+            <View style={style.container}>
                 <FlatList 
                     data = {listStorys}
                     extraData = {this.data}
                     keyExtractor = {(item, index) => index.toString()}
                     renderItem = {( { item, index }) => 
-                        <LinearGradient colors={['#FFF68F', '#EEE685']} start={{ x: 0, y: 0 }} end={{ x: 1, y: 0 }} style={style.containView} >
-                            <TouchableOpacity style={style.containText} onPress={() => Actions.listStorys({ data: item.data, title: item.title })}>
+                        <LinearGradient colors={['#72C31B', '#6BA829']} start={{ x: 0, y: 0 }} end={{ x: 1, y: 0 }} style={style.containView} >
+                            <TouchableOpacity style={[style.containText,{padding:30}]} onPress={() => Actions.listStorys({ data: item.data, title: item.title })}>
                                 <Text style={layoutStyle.textBoldLarge}>{item.title}</Text>
                             </TouchableOpacity>
                         </LinearGradient>

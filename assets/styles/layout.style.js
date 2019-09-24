@@ -21,7 +21,7 @@ const layoutStyle = StyleSheet.create({
         fontFamily:'Quicksand-Bold'
     },
     textBoldLarge:{
-        color:'#333',
+        color:'#fff',
         fontSize: widthDevice*0.05,
         fontFamily:'Quicksand-Bold'
     },
