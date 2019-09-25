@@ -32,7 +32,7 @@ export default class Speak extends Component {
                     extraData = {this.data}
                     keyExtractor = {(item, index) => index.toString()}
                     renderItem = {( { item, index }) => 
-                        <LinearGradient colors={['#72C31B', '#6BA829']} start={{ x: 0, y: 0 }} end={{ x: 1, y: 0 }} style={style.containView} >
+                        <LinearGradient colors={['#58a762', '#58a762']} start={{ x: 0, y: 0 }} end={{ x: 1, y: 0 }} style={style.containView} >
                             <TouchableOpacity style={[style.containText,{padding:30}]} onPress={() => Actions.listStorys({ data: item.data, title: item.title })}>
                                 <Text style={layoutStyle.textBoldLarge}>{item.title}</Text>
                             </TouchableOpacity>

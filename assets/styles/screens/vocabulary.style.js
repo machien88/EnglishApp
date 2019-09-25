@@ -14,7 +14,7 @@ const vocabularyStyle = StyleSheet.create({
     },
     containView:{
         flex: 1,
-        height: heightDevice / 5,
+        height: heightDevice / 6,
         borderRadius:10,
         margin:5
     },

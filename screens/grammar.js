@@ -32,7 +32,7 @@ export default class Grammar extends Component {
                     extraData = {this.state}
                     keyExtractor = {(item,index) => index.toString()}
                     renderItem = {({ item, index}) => 
-                        <LinearGradient colors ={['#EEAD0E', '#BBCB11']} start={{ x: 0, y: 0 }} end={{ x: 1, y: 0 }} style={style.containView} >
+                        <LinearGradient colors ={['#6e8f91', '#6e8f91']} start={{ x: 0, y: 0 }} end={{ x: 1, y: 0 }} style={style.containView} >
                             <TouchableOpacity style={style.containText} onPress ={() => Actions.listGrammars({ data: item.data, title: item.title })} >
                             <Text style={layoutStyle.textBoldLarge}>{item.title}</Text>
                             </TouchableOpacity>

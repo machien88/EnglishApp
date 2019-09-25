@@ -10,6 +10,9 @@ const listenStyle = StyleSheet.create({
         flexDirection: 'column',
         marginBottom: 65
     },
+    containView: {
+        height: heightDevice / 6
+    },
     containText: {
         flex: 1,
         justifyContent: "center",

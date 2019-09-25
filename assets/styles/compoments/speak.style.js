@@ -10,7 +10,7 @@ const translateStyle = StyleSheet.create({
     },
     containText: {
         flex: 1,
-        height: heightDevice / 5,
+        height: heightDevice / 6,
         justifyContent: "center",
         borderRadius:10,
         margin:5,

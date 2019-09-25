@@ -21,19 +21,19 @@ export default class Tabbar extends Component {
             <Animatable.View animation="slideInUp" style={style.footer} >
                 <View style={style.footerMenu} >
                     <TouchableOpacity onPress={() => Actions.listenBar()} style={style.bottomButtons}>
-                        <Icon name="headphones" size={25} color={index === 0 ? "#DAA520" : "#fff" } />
+                        <Icon name="headphones" size={32} color={index === 0 ? "#f55f22" : "#fff" } />
                         <Text style={style.footerText}>Nge</Text>
                     </TouchableOpacity>
                     <TouchableOpacity onPress={() => Actions.speakBar()} style={style.bottomButtons}>
-                        <Icon name="book-reader" size={25} color={index === 1 ? "#DAA520" : "#fff" } />
+                        <Icon name="book-reader" size={32} color={index === 1 ? "#f55f22" : "#fff" } />
                         <Text style={style.footerText}>Nói</Text>
                     </TouchableOpacity>
                     <TouchableOpacity onPress={() => Actions.grammarBar()} style={style.bottomButtons}>
-                        <Icon name="book" size={25} color={index === 2 ? "#DAA520" : "#fff" }/>
+                        <Icon name="book" size={32} color={index === 2 ? "#f55f22" : "#fff" }/>
                         <Text style={style.footerText}>Ngữ Pháp</Text>
                     </TouchableOpacity>
                     <TouchableOpacity onPress={() => Actions.vocabularyBar()} style={style.bottomButtons}>
-                        <Icon name="pen" size={25} color={index === 3 ? "#DAA520" : "#fff" }/>
+                        <Icon name="pen" size={32} color={index === 3 ? "#f55f22" : "#fff" }/>
                         <Text style={style.footerText}>Từ Vựng</Text>
                     </TouchableOpacity>
                 </View>

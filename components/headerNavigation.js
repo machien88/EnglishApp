@@ -23,7 +23,7 @@ export default class HeaderNavigation extends Component {
         // set status bar light 
         StatusBar.setBarStyle('light-content', true);
         return (
-            <LinearGradient colors={['#89c633','#00aabb' ]} start={{x: 0, y: 0}} end={{x: 1, y: 0}} style={style.nav_container} >
+            <LinearGradient colors={['#2bd4ae','#2bd4ae' ]} start={{x: 0, y: 0}} end={{x: 1, y: 0}} style={style.nav_container} >
                 <StatusBar barStyle="light-content"/>
                 <TouchableOpacity onPress={ this.props.actionButtonLeft } style={style.nav_back} >
                     { this.props.iconLeft }

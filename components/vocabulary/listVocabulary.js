@@ -31,7 +31,7 @@ export default class ListVocabulary extends Component {
                         extraData={this.state}
                         keyExtractor={(item, index) => index.toString()}
                         renderItem={({ item, index }) =>
-                            <LinearGradient colors={['#0A70DD', '#0F5096']} start={{ x: 0, y: 0 }} end={{ x: 1, y: 0 }} style={style.containText} >
+                            <LinearGradient colors={['#62969d', '#62969d']} start={{ x: 0, y: 0 }} end={{ x: 1, y: 0 }} style={style.containText} >
                                 <TouchableOpacity>
                                     <Text style={layoutStyle.textBoldLarge}>{item.word} - {item.spelling}: {item.translate}</Text>
                                     {/* <Text style={layoutStyle.textBoldLarge}>{item.spelling}</Text>
