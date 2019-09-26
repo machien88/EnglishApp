@@ -79,6 +79,7 @@ export default class Routes extends Component {
             <Router backAndroidHandler={() => backAction()}>
                 <Scene key="root" transitionConfig={transitionConfig} drawerLockMode={'locked-closed'} >
                     {/* <!-- Tabbar scene --> */}
+                    {/* <Scene key = "splash" component = {Splash} title = "splash" ></Scene> */}
                     <Scene key="tabbar" tabs tabBarComponent={Tabbar} type="reset" hideNavBar>
                         <Scene key="listenBar" hideNavBar>
                             <Scene key="listen" component={Listen} title="listen" />
