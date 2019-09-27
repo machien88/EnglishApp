@@ -803,6 +803,366 @@ const data = {
                     "sound": ""
                 }
             ]
+        },
+        {
+            "title": "Synonym (Happy)",
+            "description": "Từ Đồng Nghĩa",
+            "data": [
+                {
+                    "word": "Content",
+                    "translate": "Hài lòng",
+                    "spelling": "/´telefoun/",
+                    "sound": ""
+                },
+                {
+                    "word": "Satisfied",
+                    "translate": "Vừa ý",
+                    "spelling": "/´telefoun/",
+                    "sound": ""
+                },
+                {
+                    "word": "Blissful",
+                    "translate": "Sung sướng",
+                    "spelling": "/´telefoun/",
+                    "sound": ""
+                },
+                {
+                    "word": "Joyful",
+                    "translate": "Vui mừng, Hân hoan",
+                    "spelling": "/´telefoun/",
+                    "sound": ""
+                },
+                {
+                    "word": "Delighted",
+                    "translate": "Vui mừng",
+                    "spelling": "/´telefoun/",
+                    "sound": ""
+                },
+                {
+                    "word": "Ecstatic",
+                    "translate": "Mê ly, Ngây ngất",
+                    "spelling": "/´telefoun/",
+                    "sound": ""
+                },
+                {
+                    "word": "Thrilled",
+                    "translate": "Xúc động, Hồi hộp",
+                    "spelling": "/´telefoun/",
+                    "sound": ""
+                },
+                {
+                    "word": "Glad",
+                    "translate": "Vui lòng, Sung sướng",
+                    "spelling": "/´telefoun/",
+                    "sound": ""
+                },
+                {
+                    "word": "Pleased",
+                    "translate": "Sẵn lòng",
+                    "spelling": "/´telefoun/",
+                    "sound": ""
+                }
+            ]
+        },
+        {
+            "title": "Synonym (Sad)",
+            "description": "Từ Đồng Nghĩa",
+            "data": [
+                {
+                    "word": "Miserable",
+                    "translate": "Khốn khổ, Nghèo nàn",
+                    "spelling": "/´telefoun/",
+                    "sound": ""
+                },
+                {
+                    "word": "Gloomy",
+                    "translate": "Buồn rầu, Ảm đạm",
+                    "spelling": "/´telefoun/",
+                    "sound": ""
+                },
+                {
+                    "word": "Dejected",
+                    "translate": "Buồn nản, Chán nản",
+                    "spelling": "/´telefoun/",
+                    "sound": ""
+                },
+                {
+                    "word": "Depressed",
+                    "translate": "Chán nản, Thất vọng",
+                    "spelling": "/´telefoun/",
+                    "sound": ""
+                },
+                {
+                    "word": "Disheartened",
+                    "translate": "Nản lòng",
+                    "spelling": "/´telefoun/",
+                    "sound": ""
+                },
+                {
+                    "word": "blue",
+                    "translate": "Chán nản, Thất vọng",
+                    "spelling": "/´telefoun/",
+                    "sound": ""
+                },
+                {
+                    "word": "unHappy",
+                    "translate": "Không hạnh phúc",
+                    "spelling": "/´telefoun/",
+                    "sound": ""
+                },
+                {
+                    "word": "Wretched",
+                    "translate": "Khốn khổ, Cùng khổ",
+                    "spelling": "/´telefoun/",
+                    "sound": ""
+                },
+                {
+                    "word": "Heartbroken",
+                    "translate": "Đau khổ",
+                    "spelling": "/´telefoun/",
+                    "sound": ""
+                }
+            ]
+        },
+        {
+            "title": "Synonym (Good)",
+            "description": "Từ Đồng Nghĩa",
+            "data": [
+                {
+                    "word": "Excellent",
+                    "translate": "Xuất sắc",
+                    "spelling": "/´telefoun/",
+                    "sound": ""
+                },
+                {
+                    "word": "Amazing",
+                    "translate": "Đáng kinh ngạc",
+                    "spelling": "/´telefoun/",
+                    "sound": ""
+                },
+                {
+                    "word": "Wonderful",
+                    "translate": "Tuyệt vời",
+                    "spelling": "/´telefoun/",
+                    "sound": ""
+                },
+                {
+                    "word": "Pleasant",
+                    "translate": "Dễ chịu, Tốt đẹp",
+                    "spelling": "/´telefoun/",
+                    "sound": ""
+                },
+                {
+                    "word": "Marvelous",
+                    "translate": "Kỳ diệu",
+                    "spelling": "/´telefoun/",
+                    "sound": ""
+                },
+                {
+                    "word": "Exceptional",
+                    "translate": "Nổi bật",
+                    "spelling": "/´telefoun/",
+                    "sound": ""
+                },
+                {
+                    "word": "Fantastic",
+                    "translate": "Tuyệt diệu",
+                    "spelling": "/´telefoun/",
+                    "sound": ""
+                },
+                {
+                    "word": "OutStanding",
+                    "translate": "Xuất sắc",
+                    "spelling": "/´telefoun/",
+                    "sound": ""
+                },
+                {
+                    "word": "Terrific",
+                    "translate": "Tuyệt vời",
+                    "spelling": "/´telefoun/",
+                    "sound": ""
+                }
+            ]
+        },
+        {
+            "title": "Synonym (Bad)",
+            "description": "Từ Đồng Nghĩa",
+            "data": [
+                {
+                    "word": "Awful",
+                    "translate": "Dễ sợ ,Khủng khiếp",
+                    "spelling": "/´telefoun/",
+                    "sound": ""
+                },
+                {
+                    "word": "Terrible",
+                    "translate": "Dễ sợ ,Ghê gớm",
+                    "spelling": "/´telefoun/",
+                    "sound": ""
+                },
+                {
+                    "word": "Horrible",
+                    "translate": "Kinh khủng, Xấu xa",
+                    "spelling": "/´telefoun/",
+                    "sound": ""
+                },
+                {
+                    "word": "Horrific",
+                    "translate": "Khủng khiếp",
+                    "spelling": "/´telefoun/",
+                    "sound": ""
+                },
+                {
+                    "word": "Dreadful",
+                    "translate": "Dễ sợ, Khủng khiếp",
+                    "spelling": "/´telefoun/",
+                    "sound": ""
+                },
+                {
+                    "word": "Outrageous",
+                    "translate": "Tàn bạo, Vô nhân đạo",
+                    "spelling": "/´telefoun/",
+                    "sound": ""
+                },
+                {
+                    "word": "Shameful",
+                    "translate": "Hổ thẹn, Xấu hổ",
+                    "spelling": "/´telefoun/",
+                    "sound": ""
+                },
+                {
+                    "word": "Despicable",
+                    "translate": "Ti tiện, Hèn hạ",
+                    "spelling": "/´telefoun/",
+                    "sound": ""
+                },
+                {
+                    "word": "Disgraceful",
+                    "translate": "Ô nhục, nhục nhã",
+                    "spelling": "/´telefoun/",
+                    "sound": ""
+                }
+            ]
+        },
+        {
+            "title": "Synonym (Big)",
+            "description": "Từ Đồng Nghĩa",
+            "data": [
+                {
+                    "word": "Large",
+                    "translate": "Rộng lớn, Rộng rãi",
+                    "spelling": "/´telefoun/",
+                    "sound": ""
+                },
+                {
+                    "word": "Colossal",
+                    "translate": "Khổng lồ, To lớn",
+                    "spelling": "/´telefoun/",
+                    "sound": ""
+                },
+                {
+                    "word": "Enormous",
+                    "translate": "To lớn, Khổng lồ",
+                    "spelling": "/´telefoun/",
+                    "sound": ""
+                },
+                {
+                    "word": "Gigantic",
+                    "translate": "Khổng lồ, Kếch xù",
+                    "spelling": "/´telefoun/",
+                    "sound": ""
+                },
+                {
+                    "word": "Huge",
+                    "translate": "Đồ sộ",
+                    "spelling": "/´telefoun/",
+                    "sound": ""
+                },
+                {
+                    "word": "Massive",
+                    "translate": "Chắc nặng",
+                    "spelling": "/´telefoun/",
+                    "sound": ""
+                },
+                {
+                    "word": "Substantial",
+                    "translate": "Quang trọng,Đáng kể",
+                    "spelling": "/´telefoun/",
+                    "sound": ""
+                },
+                {
+                    "word": "Significant",
+                    "translate": "Quang trọng, Ý nghĩa",
+                    "spelling": "/´telefoun/",
+                    "sound": ""
+                },
+                {
+                    "word": "Tremendous",
+                    "translate": "Rất lớn, Trầm trọng",
+                    "spelling": "/´telefoun/",
+                    "sound": ""
+                }
+            ]
+        },
+        {
+            "title": "Synonym (Small)",
+            "description": "Từ Đồng Nghĩa",
+            "data": [
+                {
+                    "word": "Diminutive",
+                    "translate": "Nhỏ xíu, Bé tí",
+                    "spelling": "/´telefoun/",
+                    "sound": ""
+                },
+                {
+                    "word": "Little",
+                    "translate": "Nhỏ bé, Bé bỏng",
+                    "spelling": "/´telefoun/",
+                    "sound": ""
+                },
+                {
+                    "word": "Miniature",
+                    "translate": "Nhỏ, Vụn vặt, Kĩ lưỡng",
+                    "spelling": "/´telefoun/",
+                    "sound": ""
+                },
+                {
+                    "word": "Petite",
+                    "translate": "Xinh xinh, Nhỏ nhắn, Mảnh dẻ",
+                    "spelling": "/´telefoun/",
+                    "sound": ""
+                },
+                {
+                    "word": "Teeny",
+                    "translate": "Nhỏ xíu, Bé tí xíu",
+                    "spelling": "/´telefoun/",
+                    "sound": ""
+                },
+                {
+                    "word": "Tiny",
+                    "translate": "Rất nhỏ, Nhỏ li ti",
+                    "spelling": "/´telefoun/",
+                    "sound": ""
+                },
+                {
+                    "word": "Wee",
+                    "translate": "Rất nhỏ, Nhỏ xíu",
+                    "spelling": "/´telefoun/",
+                    "sound": ""
+                },
+                {
+                    "word": "Slight",
+                    "translate": "Mỏng manh, Thon gầy, Yếu ớt",
+                    "spelling": "/´telefoun/",
+                    "sound": ""
+                },
+                {
+                    "word": "Tremendous",
+                    "translate": "Rất lớn, Trầm trọng",
+                    "spelling": "/´telefoun/",
+                    "sound": ""
+                }
+            ]
         }
     ]
 }
