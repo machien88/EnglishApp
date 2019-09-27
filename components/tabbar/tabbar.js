@@ -8,12 +8,15 @@ import Icon from 'react-native-vector-icons/FontAwesome5';
 import * as Animatable from 'react-native-animatable';
 import style from '../../assets/styles/tabbar.style';
 import { Actions } from 'react-native-router-flux';
-
+import SplashScreen from 'react-native-splash-screen'
 export default class Tabbar extends Component {
     constructor(props) {
         super(props);
         this.state = {
         }
+    }
+    componentDidMount() {
+        SplashScreen.hide()
     }
     render() {
         const { index } = this.props.navigation.state;
