@@ -66,7 +66,7 @@ const data = {
                   }]
         },
         {
-            "title": "Present Continuous",
+            "title": "PRESENT CONTINUOUS",
             "description": "Thì hiện tại tiếp diễn",
             "data": [{
                 "content": 
@@ -106,7 +106,7 @@ const data = {
             }]
         },
         {
-            "title": "Past Continuous",
+            "title": "PAST CONTINUOUS",
             "description": "Thì quá khứ tiếp diễn",
             "data": [{
                 "content": 
