@@ -75,7 +75,7 @@ const data = {
         },
         {
             "title": "Kids enjoy learning in outdoor classes",
-            "title_translate": "",
+            "title_translate": "Trẻ con thích thú với các lớp học ngoài trời",
             "data": [
                 {
                     "content": "- If it does not rain, outdoor classes in the school’s garden are held everyday at the Hoa Mai Kindergarten in Hau Giang Province.\n"
