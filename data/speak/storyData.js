@@ -75,7 +75,7 @@ const data = {
         },
         {
             "title": "Kids enjoy learning in outdoor classes",
-            "title_translate": "",
+            "title_translate": "Trẻ con thích thú với các lớp học ngoài trời",
             "data": [
                 {
                     "content": "- If it does not rain, outdoor classes in the school’s garden are held everyday at the Hoa Mai Kindergarten in Hau Giang Province.\n"
@@ -146,6 +146,9 @@ const data = {
                             + "- Thông thường một điều hay, một thông điệp ý nghĩa rất khó được cảm nhận, học được chỉ qua một lời dạy, một câu chuyện mà nó cần được lặp lại theo nhiều sắc thái và hoàn cảnh khác nhau. Vì thế, tìm hiểu cách dạy con qua các câu chuyện cổ tích, truyện ngụ ngôn sẽ là những bổ sung hữu ích cho các bậc phụ huynh trong suốt quá trình nuôi dạy con cái từ nhỏ đến khi trưởng thành. Đó là một hành trình thật dài và kỹ năng thay đổi cách dạy con theo từng trường hợp, hoàn cảnh đóng vai trò rất quan trọng để hình thành nhân cách cho một đứa trẻ sau này.\n"
                 }
             ]
+        },
+        {
+            
         }
     ]
 }

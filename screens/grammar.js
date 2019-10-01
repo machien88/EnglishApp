@@ -35,6 +35,7 @@ export default class Grammar extends Component {
                         <LinearGradient colors ={['#6e8f91', '#6e8f91']} start={{ x: 0, y: 0 }} end={{ x: 1, y: 0 }} style={style.containView} >
                             <TouchableOpacity style={style.containText} onPress ={() => Actions.listGrammars({ data: item.data, title: item.title })} >
                             <Text style={layoutStyle.textBoldLarge}>{item.title}</Text>
+                            <Text style={layoutStyle.textBoldLarge}>({item.description})</Text>
                             </TouchableOpacity>
                         </LinearGradient>
                     }

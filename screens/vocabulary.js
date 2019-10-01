@@ -36,6 +36,7 @@ export default class Vocabulary extends Component {
                         <LinearGradient colors={['#1790a0', '#1790a0']} start={{ x: 0, y: 0 }} end={{ x: 1, y: 0 }} style={style.containView} >
                             <TouchableOpacity style={style.containText} onPress={() => Actions.listVocabulary({ data: item.data, title: item.title })}>
                                 <Text style={layoutStyle.textBoldLarge}>{item.title}</Text>
+                                <Text style={layoutStyle.textBoldLarge}>({item.description})</Text>
                             </TouchableOpacity>
                         </LinearGradient>
                     }
