@@ -83,7 +83,7 @@ export default class Routes extends Component {
                     <Scene key="tabbar" tabs tabBarComponent={Tabbar} type="reset" hideNavBar>
                         <Scene key="listenBar" hideNavBar>
                             <Scene key="listen" component={Listen} title="listen" />
-                            <Scene key="video" component={Video} title="video" />
+                            <Scene key="video" component={Video} title="video"  hideTabBar={true}/>
                             <Scene key="listVideo" component={ListVideo} title="listVideo" />
                         </Scene>
                         <Scene key="speakBar" hideNavBar>
