@@ -5,7 +5,8 @@ import {
     ScrollView,
     StyleSheet,
     Text,
-    View
+    View,
+    ActivityIndicator
 } from 'react-native'
 import { Actions } from 'react-native-router-flux';
 import Icon from 'react-native-vector-icons/MaterialIcons'
@@ -73,6 +74,7 @@ export default class ListVideo extends Component {
                             </TouchableHighlight>
                         )}
                     </View>
+                    <ActivityIndicator size="large" color="gray" style={styles.loading}/>
                 </ScrollView>
             </View>
         )
@@ -84,9 +86,9 @@ const styles = StyleSheet.create({
     },
     body: {
         flex: 1,
-        backgroundColor: '#fff',
+        justifyContent: 'center',
         alignItems: 'center',
-        padding: 30
+        padding: 30,
     },
     vids: {
         paddingBottom: 30,
@@ -106,5 +108,11 @@ const styles = StyleSheet.create({
     vidText: {
         padding: 20,
         color: '#000'
+    },
+    loading: {
+        flex: 1,
+        justifyContent: 'center',
+        alignItems: 'center',
+        marginTop: 200
     }
 })

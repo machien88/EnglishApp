@@ -26,7 +26,7 @@ export default class PlayVideo extends Component {
                     <YouTube
                         videoId={this.props.youtubeId}
                         play={true}
-                        fullscreen={true}
+                        fullscreen={false}
                         loop={false}
                         apiKey={'AIzaSyBJ3ntReiv0L19H2RoYW62LpRdIuyPhIpw'}
                         onReady={e => this.setState({ isReady: true })}
