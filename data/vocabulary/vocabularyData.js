@@ -811,55 +811,55 @@ const data = {
                 {
                     "word": "Content",
                     "translate": "Hài lòng",
-                    "spelling": "/´telefoun/",
+                    "spelling": "/ˈkɑːntent/",
                     "sound": ""
                 },
                 {
                     "word": "Satisfied",
                     "translate": "Vừa ý",
-                    "spelling": "/´telefoun/",
+                    "spelling": "/ˈsætɪsfaɪd/",
                     "sound": ""
                 },
                 {
                     "word": "Blissful",
                     "translate": "Sung sướng",
-                    "spelling": "/´telefoun/",
+                    "spelling": "/ˈblɪsfl/",
                     "sound": ""
                 },
                 {
                     "word": "Joyful",
                     "translate": "Vui mừng, Hân hoan",
-                    "spelling": "/´telefoun/",
+                    "spelling": "/ˈdʒɔɪfl/",
                     "sound": ""
                 },
                 {
                     "word": "Delighted",
                     "translate": "Vui mừng",
-                    "spelling": "/´telefoun/",
+                    "spelling": "/dɪˈlaɪtɪd/",
                     "sound": ""
                 },
                 {
                     "word": "Ecstatic",
                     "translate": "Mê ly, Ngây ngất",
-                    "spelling": "/´telefoun/",
+                    "spelling": "/ɪkˈstætɪk/",
                     "sound": ""
                 },
                 {
                     "word": "Thrilled",
                     "translate": "Xúc động, Hồi hộp",
-                    "spelling": "/´telefoun/",
+                    "spelling": "/θrɪld/",
                     "sound": ""
                 },
                 {
                     "word": "Glad",
                     "translate": "Vui lòng, Sung sướng",
-                    "spelling": "/´telefoun/",
+                    "spelling": "/ɡlæd/",
                     "sound": ""
                 },
                 {
                     "word": "Pleased",
                     "translate": "Sẵn lòng",
-                    "spelling": "/´telefoun/",
+                    "spelling": "/pliːzd/",
                     "sound": ""
                 }
             ]
@@ -871,55 +871,55 @@ const data = {
                 {
                     "word": "Miserable",
                     "translate": "Khốn khổ, Nghèo nàn",
-                    "spelling": "/´telefoun/",
+                    "spelling": "/ˈmɪzrəbl/",
                     "sound": ""
                 },
                 {
                     "word": "Gloomy",
                     "translate": "Buồn rầu, Ảm đạm",
-                    "spelling": "/´telefoun/",
+                    "spelling": "/ˈɡluːmi/",
                     "sound": ""
                 },
                 {
                     "word": "Dejected",
                     "translate": "Buồn nản, Chán nản",
-                    "spelling": "/´telefoun/",
+                    "spelling": "/dɪˈdʒektɪd/",
                     "sound": ""
                 },
                 {
                     "word": "Depressed",
                     "translate": "Chán nản, Thất vọng",
-                    "spelling": "/´telefoun/",
+                    "spelling": "/dɪˈprest/",
                     "sound": ""
                 },
                 {
                     "word": "Disheartened",
                     "translate": "Nản lòng",
-                    "spelling": "/´telefoun/",
+                    "spelling": "/dɪsˈhɑːrtnd/",
                     "sound": ""
                 },
                 {
-                    "word": "blue",
+                    "word": "Blue",
                     "translate": "Chán nản, Thất vọng",
-                    "spelling": "/´telefoun/",
+                    "spelling": "/bluː/",
                     "sound": ""
                 },
                 {
-                    "word": "unHappy",
+                    "word": "Unhappy",
                     "translate": "Không hạnh phúc",
-                    "spelling": "/´telefoun/",
+                    "spelling": "/ʌnˈhæpi/",
                     "sound": ""
                 },
                 {
                     "word": "Wretched",
                     "translate": "Khốn khổ, Cùng khổ",
-                    "spelling": "/´telefoun/",
+                    "spelling": "/ˈretʃɪd/",
                     "sound": ""
                 },
                 {
                     "word": "Heartbroken",
                     "translate": "Đau khổ",
-                    "spelling": "/´telefoun/",
+                    "spelling": "/ˈhɑːrtbroʊkən/",
                     "sound": ""
                 }
             ]
@@ -931,55 +931,55 @@ const data = {
                 {
                     "word": "Excellent",
                     "translate": "Xuất sắc",
-                    "spelling": "/´telefoun/",
+                    "spelling": "/ˈeksələnt/",
                     "sound": ""
                 },
                 {
                     "word": "Amazing",
                     "translate": "Đáng kinh ngạc",
-                    "spelling": "/´telefoun/",
+                    "spelling": "/əˈmeɪzɪŋ/",
                     "sound": ""
                 },
                 {
                     "word": "Wonderful",
                     "translate": "Tuyệt vời",
-                    "spelling": "/´telefoun/",
+                    "spelling": "/ˈwʌndərfl/",
                     "sound": ""
                 },
                 {
                     "word": "Pleasant",
                     "translate": "Dễ chịu, Tốt đẹp",
-                    "spelling": "/´telefoun/",
+                    "spelling": "/ˈpleznt/",
                     "sound": ""
                 },
                 {
                     "word": "Marvelous",
                     "translate": "Kỳ diệu",
-                    "spelling": "/´telefoun/",
+                    "spelling": "/ˈmɑːrvələs/",
                     "sound": ""
                 },
                 {
                     "word": "Exceptional",
                     "translate": "Nổi bật",
-                    "spelling": "/´telefoun/",
+                    "spelling": "/ɪkˈsepʃənl/",
                     "sound": ""
                 },
                 {
                     "word": "Fantastic",
                     "translate": "Tuyệt diệu",
-                    "spelling": "/´telefoun/",
+                    "spelling": "/fænˈtæstɪk/",
                     "sound": ""
                 },
                 {
                     "word": "OutStanding",
                     "translate": "Xuất sắc",
-                    "spelling": "/´telefoun/",
+                    "spelling": "/aʊtˈstændɪŋ/",
                     "sound": ""
                 },
                 {
                     "word": "Terrific",
                     "translate": "Tuyệt vời",
-                    "spelling": "/´telefoun/",
+                    "spelling": "/təˈrɪfɪk/",
                     "sound": ""
                 }
             ]
@@ -991,55 +991,55 @@ const data = {
                 {
                     "word": "Awful",
                     "translate": "Dễ sợ ,Khủng khiếp",
-                    "spelling": "/´telefoun/",
+                    "spelling": "/ˈɔːfl/",
                     "sound": ""
                 },
                 {
                     "word": "Terrible",
                     "translate": "Dễ sợ ,Ghê gớm",
-                    "spelling": "/´telefoun/",
+                    "spelling": "/ˈterəbl/",
                     "sound": ""
                 },
                 {
                     "word": "Horrible",
                     "translate": "Kinh khủng, Xấu xa",
-                    "spelling": "/´telefoun/",
+                    "spelling": "/ˈhɔːrəbl/",
                     "sound": ""
                 },
                 {
                     "word": "Horrific",
                     "translate": "Khủng khiếp",
-                    "spelling": "/´telefoun/",
+                    "spelling": "/həˈrɪfɪk/",
                     "sound": ""
                 },
                 {
                     "word": "Dreadful",
                     "translate": "Dễ sợ, Khủng khiếp",
-                    "spelling": "/´telefoun/",
+                    "spelling": "/ˈdredfl/",
                     "sound": ""
                 },
                 {
                     "word": "Outrageous",
                     "translate": "Tàn bạo, Vô nhân đạo",
-                    "spelling": "/´telefoun/",
+                    "spelling": "/aʊtˈreɪdʒəs/",
                     "sound": ""
                 },
                 {
                     "word": "Shameful",
                     "translate": "Hổ thẹn, Xấu hổ",
-                    "spelling": "/´telefoun/",
+                    "spelling": "/ˈʃeɪmfl/",
                     "sound": ""
                 },
                 {
                     "word": "Despicable",
                     "translate": "Ti tiện, Hèn hạ",
-                    "spelling": "/´telefoun/",
+                    "spelling": "/dɪˈspɪkəbl/",
                     "sound": ""
                 },
                 {
                     "word": "Disgraceful",
                     "translate": "Ô nhục, nhục nhã",
-                    "spelling": "/´telefoun/",
+                    "spelling": "/dɪsˈɡreɪsfl/",
                     "sound": ""
                 }
             ]
@@ -1051,55 +1051,55 @@ const data = {
                 {
                     "word": "Large",
                     "translate": "Rộng lớn, Rộng rãi",
-                    "spelling": "/´telefoun/",
+                    "spelling": "/lɑːrdʒ/",
                     "sound": ""
                 },
                 {
                     "word": "Colossal",
                     "translate": "Khổng lồ, To lớn",
-                    "spelling": "/´telefoun/",
+                    "spelling": "/kəˈlɑːsl/",
                     "sound": ""
                 },
                 {
                     "word": "Enormous",
                     "translate": "To lớn, Khổng lồ",
-                    "spelling": "/´telefoun/",
+                    "spelling": "/ɪˈnɔːrməs/",
                     "sound": ""
                 },
                 {
                     "word": "Gigantic",
                     "translate": "Khổng lồ, Kếch xù",
-                    "spelling": "/´telefoun/",
+                    "spelling": "/dʒaɪˈɡæntɪk/",
                     "sound": ""
                 },
                 {
                     "word": "Huge",
                     "translate": "Đồ sộ",
-                    "spelling": "/´telefoun/",
+                    "spelling": "/hjuːdʒ/",
                     "sound": ""
                 },
                 {
                     "word": "Massive",
                     "translate": "Chắc nặng",
-                    "spelling": "/´telefoun/",
+                    "spelling": "/ˈmæsɪv/",
                     "sound": ""
                 },
                 {
                     "word": "Substantial",
                     "translate": "Quang trọng,Đáng kể",
-                    "spelling": "/´telefoun/",
+                    "spelling": "/səbˈstænʃl/",
                     "sound": ""
                 },
                 {
                     "word": "Significant",
                     "translate": "Quang trọng, Ý nghĩa",
-                    "spelling": "/´telefoun/",
+                    "spelling": "/sɪɡˈnɪfɪkənt/",
                     "sound": ""
                 },
                 {
                     "word": "Tremendous",
                     "translate": "Rất lớn, Trầm trọng",
-                    "spelling": "/´telefoun/",
+                    "spelling": "/trəˈmendəs/",
                     "sound": ""
                 }
             ]
@@ -1111,55 +1111,55 @@ const data = {
                 {
                     "word": "Diminutive",
                     "translate": "Nhỏ xíu, Bé tí",
-                    "spelling": "/´telefoun/",
+                    "spelling": "/dɪˈmɪnjətɪv/",
                     "sound": ""
                 },
                 {
                     "word": "Little",
                     "translate": "Nhỏ bé, Bé bỏng",
-                    "spelling": "/´telefoun/",
+                    "spelling": "/ˈlɪtl/",
                     "sound": ""
                 },
                 {
                     "word": "Miniature",
                     "translate": "Nhỏ, Vụn vặt, Kĩ lưỡng",
-                    "spelling": "/´telefoun/",
+                    "spelling": "/ˈmɪnətʃər/",
                     "sound": ""
                 },
                 {
                     "word": "Petite",
                     "translate": "Xinh xinh, Nhỏ nhắn, Mảnh dẻ",
-                    "spelling": "/´telefoun/",
+                    "spelling": "/pəˈtiːt/",
                     "sound": ""
                 },
                 {
                     "word": "Teeny",
                     "translate": "Nhỏ xíu, Bé tí xíu",
-                    "spelling": "/´telefoun/",
+                    "spelling": "/ˈtiːni/",
                     "sound": ""
                 },
                 {
                     "word": "Tiny",
                     "translate": "Rất nhỏ, Nhỏ li ti",
-                    "spelling": "/´telefoun/",
+                    "spelling": "/ˈtaɪni/",
                     "sound": ""
                 },
                 {
                     "word": "Wee",
                     "translate": "Rất nhỏ, Nhỏ xíu",
-                    "spelling": "/´telefoun/",
+                    "spelling": "/wiː/",
                     "sound": ""
                 },
                 {
                     "word": "Slight",
                     "translate": "Mỏng manh, Thon gầy, Yếu ớt",
-                    "spelling": "/´telefoun/",
+                    "spelling": "/slaɪt/",
                     "sound": ""
                 },
                 {
                     "word": "Tremendous",
                     "translate": "Rất lớn, Trầm trọng",
-                    "spelling": "/´telefoun/",
+                    "spelling": "/trəˈmendəs/",
                     "sound": ""
                 }
             ]
