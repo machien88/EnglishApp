@@ -147,9 +147,6 @@ const data = {
                 }
             ]
         },
-        {
-            
-        }
     ]
 }
 const getStory = () => {
