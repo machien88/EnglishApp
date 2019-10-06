@@ -1,4 +1,4 @@
-package com.englishapp;
+package com.englishvideoapp;
 
 import android.app.Application;
 import android.util.Log;
@@ -19,6 +19,7 @@ import java.util.Arrays;
 import java.util.List;
 import com.facebook.react.shell.MainReactPackage;
 import com.inprogress.reactnativeyoutube.ReactNativeYouTube;
+import com.facebook.react.BuildConfig;
 
 public class MainApplication extends Application implements ReactApplication {
 

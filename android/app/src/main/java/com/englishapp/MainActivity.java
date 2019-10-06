@@ -1,4 +1,4 @@
-package com.englishapp;
+package com.englishvideoapp;
 import android.os.Bundle; // here 
 import com.facebook.react.ReactActivity;
 import org.devio.rn.splashscreen.SplashScreen; 
