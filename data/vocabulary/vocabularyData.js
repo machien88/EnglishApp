@@ -1163,6 +1163,624 @@ const data = {
                     "sound": ""
                 }
             ]
+        },
+        {
+            "title": "Synonym (Interesting)",
+            "description": "Từ Đồng Nghĩa",
+            "data": [
+                {
+                    "word": "Fascinating",
+                    "translate": "",
+                    "spelling": "//",
+                    "sound": ""
+                },
+                {
+                    "word": "Intriguing",
+                    "translate": "",
+                    "spelling": "//",
+                    "sound": ""
+                },
+                {
+                    "word": "Appealing",
+                    "translate": "",
+                    "spelling": "//",
+                    "sound": ""
+                },
+                {
+                    "word": "Gripping",
+                    "translate": "",
+                    "spelling": "//",
+                    "sound": ""
+                },
+                {
+                    "word": "Captivating",
+                    "translate": "",
+                    "spelling": "//",
+                    "sound": ""
+                },
+                {
+                    "word": "Compelling",
+                    "translate": "",
+                    "spelling": "//",
+                    "sound": ""
+                },
+                {
+                    "word": "Engaging",
+                    "translate": "",
+                    "spelling": "//",
+                    "sound": ""
+                },
+                {
+                    "word": "Compulsive",
+                    "translate": "",
+                    "spelling": "//",
+                    "sound": ""
+                }
+            ]
+        },
+        {
+            "title": "Synonym (Fine)",
+            "description": "Từ Đồng Nghĩa",
+            "data": [
+                {
+                    "word": "Satisfactory",
+                    "translate": "",
+                    "spelling": "//",
+                    "sound": ""
+                },
+                {
+                    "word": "Imposing",
+                    "translate": "",
+                    "spelling": "//",
+                    "sound": ""
+                },
+                {
+                    "word": "Suitable",
+                    "translate": "",
+                    "spelling": "//",
+                    "sound": ""
+                },
+                {
+                    "word": "Respectable",
+                    "translate": "",
+                    "spelling": "//",
+                    "sound": ""
+                },
+                {
+                    "word": "Decent",
+                    "translate": "",
+                    "spelling": "//",
+                    "sound": ""
+                },
+                {
+                    "word": "Well",
+                    "translate": "",
+                    "spelling": "//",
+                    "sound": ""
+                },
+                {
+                    "word": "Admirable",
+                    "translate": "",
+                    "spelling": "//",
+                    "sound": ""
+                },
+                {
+                    "word": "Worthy",
+                    "translate": "",
+                    "spelling": "//",
+                    "sound": ""
+                }
+            ]
+        },
+        {
+            "title": "Synonym (Scared)",
+            "description": "Từ Đồng Nghĩa",
+            "data": [
+                {
+                    "word": "Afraid",
+                    "translate": "",
+                    "spelling": "//",
+                    "sound": ""
+                },
+                {
+                    "word": "Shaken",
+                    "translate": "",
+                    "spelling": "//",
+                    "sound": ""
+                },
+                {
+                    "word": "Terrified",
+                    "translate": "",
+                    "spelling": "//",
+                    "sound": ""
+                },
+                {
+                    "word": "Nervous",
+                    "translate": "",
+                    "spelling": "//",
+                    "sound": ""
+                },
+                {
+                    "word": "Horrified",
+                    "translate": "",
+                    "spelling": "//",
+                    "sound": ""
+                },
+                {
+                    "word": "Frightened",
+                    "translate": "",
+                    "spelling": "//",
+                    "sound": ""
+                },
+                {
+                    "word": "Trembling",
+                    "translate": "",
+                    "spelling": "//",
+                    "sound": ""
+                },
+                {
+                    "word": "Startled",
+                    "translate": "",
+                    "spelling": "//",
+                    "sound": ""
+                }
+            ]
+        },
+        {
+            "title": "Synonym (Smart)",
+            "description": "Từ Đồng Nghĩa",
+            "data": [
+                {
+                    "word": "Genius",
+                    "translate": "",
+                    "spelling": "//",
+                    "sound": ""
+                },
+                {
+                    "word": "Wise",
+                    "translate": "",
+                    "spelling": "//",
+                    "sound": ""
+                },
+                {
+                    "word": "Clever",
+                    "translate": "",
+                    "spelling": "//",
+                    "sound": ""
+                },
+                {
+                    "word": "Brilliant",
+                    "translate": "",
+                    "spelling": "//",
+                    "sound": ""
+                },
+                {
+                    "word": "Horrified",
+                    "translate": "",
+                    "spelling": "//",
+                    "sound": ""
+                },
+                {
+                    "word": "Knowledgable",
+                    "translate": "",
+                    "spelling": "//",
+                    "sound": ""
+                },
+                {
+                    "word": "Witty",
+                    "translate": "",
+                    "spelling": "//",
+                    "sound": ""
+                },
+                {
+                    "word": "Gifted",
+                    "translate": "",
+                    "spelling": "//",
+                    "sound": ""
+                }
+            ]
+        },
+        {
+            "title": "Synonym (Like)",
+            "description": "Từ Đồng Nghĩa",
+            "data": [
+                {
+                    "word": "Admire",
+                    "translate": "",
+                    "spelling": "//",
+                    "sound": ""
+                },
+                {
+                    "word": "Cherish",
+                    "translate": "",
+                    "spelling": "//",
+                    "sound": ""
+                },
+                {
+                    "word": "Fancy",
+                    "translate": "",
+                    "spelling": "//",
+                    "sound": ""
+                },
+                {
+                    "word": "Enjoy",
+                    "translate": "",
+                    "spelling": "//",
+                    "sound": ""
+                },
+                {
+                    "word": "Adore",
+                    "translate": "",
+                    "spelling": "//",
+                    "sound": ""
+                },
+                {
+                    "word": "Treasure",
+                    "translate": "",
+                    "spelling": "//",
+                    "sound": ""
+                },
+                {
+                    "word": "Prefer",
+                    "translate": "",
+                    "spelling": "//",
+                    "sound": ""
+                },
+                {
+                    "word": "Appreciate",
+                    "translate": "",
+                    "spelling": "//",
+                    "sound": ""
+                }
+            ]
+        },
+        {
+            "title": "Synonym (Beautiful)",
+            "description": "Từ Đồng Nghĩa",
+            "data": [
+                {
+                    "word": "Gorgeous",
+                    "translate": "",
+                    "spelling": "//",
+                    "sound": ""
+                },
+                {
+                    "word": "Stunning",
+                    "translate": "",
+                    "spelling": "//",
+                    "sound": ""
+                },
+                {
+                    "word": "Cute",
+                    "translate": "",
+                    "spelling": "//",
+                    "sound": ""
+                },
+                {
+                    "word": "Attracttive",
+                    "translate": "",
+                    "spelling": "//",
+                    "sound": ""
+                },
+                {
+                    "word": "Lovely",
+                    "translate": "",
+                    "spelling": "//",
+                    "sound": ""
+                },
+                {
+                    "word": "Glamorous",
+                    "translate": "",
+                    "spelling": "//",
+                    "sound": ""
+                },
+                {
+                    "word": "Elegant",
+                    "translate": "",
+                    "spelling": "//",
+                    "sound": ""
+                },
+                {
+                    "word": "Charming",
+                    "translate": "",
+                    "spelling": "//",
+                    "sound": ""
+                }
+            ]
+        },
+        {
+            "title": "Synonym (See)",
+            "description": "Từ Đồng Nghĩa",
+            "data": [
+                {
+                    "word": "Spot",
+                    "translate": "",
+                    "spelling": "//",
+                    "sound": ""
+                },
+                {
+                    "word": "Gaze",
+                    "translate": "",
+                    "spelling": "//",
+                    "sound": ""
+                },
+                {
+                    "word": "Glance",
+                    "translate": "",
+                    "spelling": "//",
+                    "sound": ""
+                },
+                {
+                    "word": "Spy",
+                    "translate": "",
+                    "spelling": "//",
+                    "sound": ""
+                },
+                {
+                    "word": "Notice",
+                    "translate": "",
+                    "spelling": "//",
+                    "sound": ""
+                },
+                {
+                    "word": "Watch",
+                    "translate": "",
+                    "spelling": "//",
+                    "sound": ""
+                },
+                {
+                    "word": "Observe",
+                    "translate": "",
+                    "spelling": "//",
+                    "sound": ""
+                },
+                {
+                    "word": "Stare",
+                    "translate": "",
+                    "spelling": "//",
+                    "sound": ""
+                }
+            ]
+        },
+        {
+            "title": "In the Mountain",
+            "description": "Trên Núi",
+            "data": [
+                {
+                    "word": "Peak",
+                    "translate": "",
+                    "spelling": "//",
+                    "sound": ""
+                },
+                {
+                    "word": "Mountain base",
+                    "translate": "",
+                    "spelling": "//",
+                    "sound": ""
+                },
+                {
+                    "word": "Mountain range",
+                    "translate": "",
+                    "spelling": "//",
+                    "sound": ""
+                },
+                {
+                    "word": "Mountain slope",
+                    "translate": "",
+                    "spelling": "//",
+                    "sound": ""
+                },
+                {
+                    "word": "rock",
+                    "translate": "",
+                    "spelling": "//",
+                    "sound": ""
+                },
+                {
+                    "word": "Volcano",
+                    "translate": "",
+                    "spelling": "//",
+                    "sound": ""
+                },
+                {
+                    "word": "Snow",
+                    "translate": "",
+                    "spelling": "//",
+                    "sound": ""
+                },
+                {
+                    "word": "Valley",
+                    "translate": "",
+                    "spelling": "//",
+                    "sound": ""
+                },
+                {
+                    "word": "Trail",
+                    "translate": "",
+                    "spelling": "//",
+                    "sound": ""
+                },
+                {
+                    "word": "Ski",
+                    "translate": "",
+                    "spelling": "//",
+                    "sound": ""
+                },
+                {
+                    "word": "Hike",
+                    "translate": "",
+                    "spelling": "//",
+                    "sound": ""
+                },
+                {
+                    "word": "Camping",
+                    "translate": "",
+                    "spelling": "//",
+                    "sound": ""
+                },
+                {
+                    "word": "Gear",
+                    "translate": "",
+                    "spelling": "//",
+                    "sound": ""
+                },
+                {
+                    "word": "Guide",
+                    "translate": "",
+                    "spelling": "//",
+                    "sound": ""
+                },
+                {
+                    "word": "Map",
+                    "translate": "",
+                    "spelling": "//",
+                    "sound": ""
+                },
+                {
+                    "word": "Medicine",
+                    "translate": "",
+                    "spelling": "//",
+                    "sound": ""
+                },
+                {
+                    "word": "Navigate",
+                    "translate": "",
+                    "spelling": "//",
+                    "sound": ""
+                },
+                {
+                    "word": "Compass",
+                    "translate": "",
+                    "spelling": "//",
+                    "sound": ""
+                },
+                {
+                    "word": "Quest",
+                    "translate": "",
+                    "spelling": "//",
+                    "sound": ""
+                }
+            ]
+        },
+        {
+            "title": "At the Beach",
+            "description": "Tại bãi biển",
+            "data": [
+                {
+                    "word": "Stand",
+                    "translate": "",
+                    "spelling": "//",
+                    "sound": ""
+                },
+                {
+                    "word": "Palm tree",
+                    "translate": "",
+                    "spelling": "//",
+                    "sound": ""
+                },
+                {
+                    "word": "Coconut",
+                    "translate": "",
+                    "spelling": "//",
+                    "sound": ""
+                },
+                {
+                    "word": "Wave",
+                    "translate": "",
+                    "spelling": "//",
+                    "sound": ""
+                },
+                {
+                    "word": "Sponge",
+                    "translate": "",
+                    "spelling": "//",
+                    "sound": ""
+                },
+                {
+                    "word": "Tide",
+                    "translate": "",
+                    "spelling": "//",
+                    "sound": ""
+                },
+                {
+                    "word": "Seaweed",
+                    "translate": "",
+                    "spelling": "//",
+                    "sound": ""
+                },
+                {
+                    "word": "Shell",
+                    "translate": "",
+                    "spelling": "//",
+                    "sound": ""
+                },
+                {
+                    "word": "Hammock",
+                    "translate": "",
+                    "spelling": "//",
+                    "sound": ""
+                },
+                {
+                    "word": "Shark",
+                    "translate": "",
+                    "spelling": "//",
+                    "sound": ""
+                },
+                {
+                    "word": "Seahouse",
+                    "translate": "",
+                    "spelling": "//",
+                    "sound": ""
+                },
+                {
+                    "word": "Sea star",
+                    "translate": "",
+                    "spelling": "//",
+                    "sound": ""
+                },
+                {
+                    "word": "Dolphin",
+                    "translate": "",
+                    "spelling": "//",
+                    "sound": ""
+                },
+                {
+                    "word": "Eel",
+                    "translate": "",
+                    "spelling": "//",
+                    "sound": ""
+                },
+                {
+                    "word": "Octopus",
+                    "translate": "",
+                    "spelling": "//",
+                    "sound": ""
+                },
+                {
+                    "word": "Turtle",
+                    "translate": "",
+                    "spelling": "//",
+                    "sound": ""
+                },
+                {
+                    "word": "Seal",
+                    "translate": "",
+                    "spelling": "//",
+                    "sound": ""
+                },
+                {
+                    "word": "Oyster",
+                    "translate": "",
+                    "spelling": "//",
+                    "sound": ""
+                },
+                {
+                    "word": "Whale",
+                    "translate": "",
+                    "spelling": "//",
+                    "sound": ""
+                }
+            ]
         }
     ]
 }
